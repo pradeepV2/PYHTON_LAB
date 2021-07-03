@@ -16,10 +16,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> x
 9
 >>> abc
-Traceback (most recent call last):
-  File "<pyshell#8>", line 1, in <module>
-    abc
-NameError: name 'abc' is not defined
+
 >>> x + 10
 19
 >>> _ + y
@@ -28,10 +25,6 @@ NameError: name 'abc' is not defined
 >>> name
 'youtube'
 >>> mane + ' rocks'
-Traceback (most recent call last):
-  File "<pyshell#13>", line 1, in <module>
-    mane + ' rocks'
-NameError: name 'mane' is not defined
 >>> name + ' rocks'
 'youtube rocks'
 >>> name ' rocks'
@@ -63,18 +56,10 @@ IndexError: string index out of range
 SyntaxError: invalid syntax
 >>> name [3:10]
 'tube'
->>> name [0:3] = 'my'
-Traceback (most recent call last):
-  File "<pyshell#28>", line 1, in <module>
-    name [0:3] = 'my'
-TypeError: 'str' object does not support item assignment
->>> name[0] = 'R'
-Traceback (most recent call last):
-  File "<pyshell#29>", line 1, in <module>
-    name[0] = 'R'
-TypeError: 'str' object does not support item assignment
+
+
 >>> 'my ' + name[3:]
 'my tube'
->>> myname = 'Navin Reddy'
+>>> myname = 'SAM ALEX'
 >>> len(myname)
 11
